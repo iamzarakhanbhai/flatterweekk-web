@@ -1,0 +1,228 @@
+@keyframes marquee {
+  0% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(-75%);
+  }
+}
+@keyframes falling {
+  0% {
+    transform: translateY(-100px) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) rotate(60deg);
+    opacity: 0;
+  }
+}
+@keyframes text {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  40% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  65% {
+    opacity: 0;
+    transform: translateY(0);
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px) scale(0.95);
+  }
+}
+@keyframes spotlight {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(7deg);
+  }
+}
+
+@keyframes phrases {
+  0%, 16% 
+  {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  20%, 100% 
+  {
+    opacity: 0;
+    transform: translateY(20px) scale(0.8);
+  }
+}
+
+@keyframes fade1 {
+  0% { 
+    opacity: 1; 
+  }
+  33% { 
+    opacity: 0; 
+  }
+  66% { 
+    opacity: 0; 
+  }
+  100% { 
+    opacity: 1; 
+  }
+}
+
+@keyframes fade1 {
+  0%, 33% { 
+    opacity: 1; 
+  }
+  34%, 100% { 
+    opacity: 0; 
+  }
+}
+
+@keyframes fade2 {
+  0%, 33% { 
+    opacity: 0; 
+  }
+  34%, 66% { 
+    opacity: 1; 
+  }
+  67%, 100% { 
+    opacity: 0; 
+  }
+}
+
+@keyframes fade3 {
+  0%, 66% { 
+    opacity: 0; 
+  }
+  67%, 99% { 
+    opacity: 1; 
+  }
+  100% { 
+    opacity: 0; 
+  }
+}
+
+@keyframes colorCycle1 {
+  0%, 33% { color: #E8100C; }
+  34%, 66% { color: #032EED; }
+  67%, 100% { color: #E4A10A; }
+}
+
+@keyframes colorCycle2 {
+  0%, 33% { color: #032EED; }
+  34%, 66% { color: #E4A10A; }
+  67%, 100% { color: #E8100C; }
+}
+
+@keyframes colorCycle3 {
+  0%, 33% { color: #E8100C; }
+  34%, 66% { color: #E4A10A; }
+  67%, 100% { color: #032EED; }
+}
+
+@keyframes colorCycle4 {
+  0%, 33% { color: #E4A10A; }
+  34%, 66% { color: #E8100C; }
+  67%, 100% { color: #032EED; }
+}
+
+@keyframes alt1 {
+  0%, 100% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+}
+
+@keyframes alt2 {
+  0%, 100% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+}
+
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fly {
+  0%, 100% {
+    margin: 0;
+  }
+  25% {
+    margin-left: -15px;
+    margin-top: -15px;
+  }
+  50% {
+    margin-top: -20px;
+    margin-left: 0;
+  }
+  75% {
+    margin-left: 10px;
+    margin-top: -10px;
+  }
+}
+.bg-image:nth-child(10) {animation-duration: 7s; animation-delay: 0s;}
+.bg-image:nth-child(11) { animation-duration: 8.5s; animation-delay: 0.8s;
+}
+.bg-image:nth-child(12) { animation-duration: 9s;animation-delay: 1.2s;}
+.bg-image:nth-child(13) { animation-duration: 7.5s; animation-delay: 2s; }
+.bg-image:nth-child(14) { animation-duration: 8s; animation-delay: 2.5s; }
+.bg-image:nth-child(15) { animation-duration: 9.5s; animation-delay: 3.3s; }
+.bg-image:nth-child(16) { animation-duration: 8s; animation-delay: 4s; }
+.bg-image:nth-child(17) { animation-duration: 10s; animation-delay: 4.3s; }
+.bg-image:nth-child(18) { animation-duration: 7s; animation-delay: 5.1s; }
+.bg-image:nth-child(19) { animation-duration: 8.5s; animation-delay: 5.7s; }
+.bg-image:nth-child(20) { animation-duration: 9s; animation-delay: 6.2s; }
+.bg-image:nth-child(21) { animation-duration: 7.5s; animation-delay: 7s; }
+.bg-image:nth-child(22) { animation-duration: 8s; animation-delay: 0.5s; }
+.bg-image:nth-child(23) { animation-duration: 9.5s; animation-delay: 1.8s; }
+.bg-image:nth-child(24) { animation-duration: 7s; animation-delay: 2.7s; }
+.bg-image:nth-child(25) { animation-duration: 10s; animation-delay: 3.5s; }
+.bg-image:nth-child(26) { animation-duration: 8.5s; animation-delay: 1s; }
+.bg-image:nth-child(27) { animation-duration: 7s; animation-delay: 1.5s; }
+.bg-image:nth-child(28) { animation-duration: 9s; animation-delay: 3.2s; }
+.bg-image:nth-child(29) { animation-duration: 8s; animation-delay: 4.1s; }
+.bg-image:nth-child(30) { animation-duration: 7.5s; animation-delay: 5.3s; }
+.bg-image:nth-child(31) { animation-duration: 10s; animation-delay: 6.1s; }
+.bg-image:nth-child(32) { animation-duration: 8s; animation-delay: 7.2s; }

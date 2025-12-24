@@ -1,0 +1,212 @@
+@media screen and (min-width: 1px) and (max-width: 464px) {
+    .container {
+        height: 120vw;
+        position: relative;
+        overflow: hidden;
+    }
+    .side-text{
+        display: none;
+    }
+    .bg-image {
+        width: 7vw;
+    }
+    .bg-left {
+        position: absolute;
+        top: 80%;
+        left: 49%;
+        width: 38vw;
+        rotate: -13deg;
+    }
+    .bg-right {
+        top: 70%;
+        left: 10%;   
+        width: 48vw;
+        rotate: 4deg;
+    }
+    .main-title {
+        top: 30%;
+        left: 50%;
+        font-size: 14vw;
+        text-shadow: -5px 2px 2vw #F6AA00;
+    }
+    .butterfly-1, .butterfly-alt1 {
+        top: 5%;
+        left: 12%;
+        width: 24%;
+    }
+
+    .butterfly-2, .butterfly-alt2 {
+        top: 5%;
+        left: 27%;
+        width: 34%;
+    }
+
+    .butterfly-3, .butterfly-alt3 {
+        top: -1%;
+        right: 13%;
+        width: 43%;
+    }
+    .public-background {
+        display: none;
+    }
+    .content-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-container {
+        padding: 25px 25px 0 25px;
+    }
+    .mobile-only-cycle{
+        display: block;
+    }
+    .item-field .item-row:nth-child(2) {
+        display: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .mobile-butterflies-row {
+        display: flex;
+        padding: 5% 0;
+    }
+
+    .butterfly-blue {
+        left: -14%;
+    }
+    .butterfly-blue img {
+        width: 24vw;
+    }
+
+    .butterfly-bluealt img {
+        width: 18vw;
+    }
+    .butterfly-bluealt {
+        left: -47%;
+    }
+    .butterfly-red {
+        left: -15%;
+    }
+    .butterfly-red img {
+        width: 45vw;
+    }
+    .butterfly-redalt img{
+        width: 35vw;
+    }
+    .butterfly-redalt {
+        left: 0;
+    }
+
+    .butterfly-yellow{
+        left: -14%;
+    }
+    .butterfly-yellow img {
+        width: 23vw;
+    }
+
+    .butterfly-yellowalt img {
+        width: 18vw;
+    }
+
+    .butterfly-yellowalt {
+        left: 51%;
+    }
+
+    .image-container {
+        width: 100%;
+        height: 100vw;
+        margin-bottom: 5%;
+    }
+    
+    .item-row{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .item-row:nth-child(1) .cycle,
+    .item-row:nth-child(3) .cycle {
+        display: none;
+    }
+    .item-field .item-row:nth-child(2) {
+        display: flex;
+        justify-content: space-around;
+    }
+    .item-row:nth-child(2) .item[class*="butterfly"] {
+        display: none;
+    }
+    .mobile-only-cycle {
+        display: flex ;
+    }
+    .item-field {
+        width: 100%;
+    }
+    .item {
+        font-size: 30vw;
+    }
+
+    .letter4, .letter3{
+        padding-top: 3vw;
+    }
+    .cycle img {
+        width: 25vw;
+    }
+    .footer-logo {
+        justify-content: center;
+    }
+    .footer-logo img{
+        width: 55vw;
+    }
+    .footer-title{
+        margin: 5vw 0;
+    }
+    .footer-column {
+        font-size: 7vw;
+        margin: 3vw;
+    }
+    .butterfly-4 {
+        top: 30%;
+        transform: translateX(25vw);
+        width: 10vw;
+    }
+    .butterfly-5 {
+        top: 5%;
+        transform: translateX(30vw);
+        width: 10vw;;
+    }
+    .butterfly-6 {
+        top: 35%;
+        transform: translateX(65vw);
+        width: 10vw;
+    }
+}
+
+@media screen and (min-width: 465px) and (max-width: 769px) {
+    .side-text {
+        display: none;
+    }
+    .footer-column {
+        font-size: 32px;
+        margin: 3vw;
+    }
+    .footer-title{
+        margin: 5vw 0;
+    }
+    .footer-logo {
+        justify-content: center;
+    }
+    .footer-logo img{
+        width: 50vw;
+    }
+    .butterfly-4 {
+        top: 45%;
+        transform: translateX(15vw);
+        width: 7vw;
+    }
+    .butterfly-5 {
+        top: 25%;
+        transform: translateX(155px);
+        width: 7vw;
+    }
+    .butterfly-6 {
+        top: 38%;
+        width: 7vw;
+        transform: translateX(36vw);
+    }
+}
